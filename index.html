@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Toss</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 class="game_title">The Dice Toss</h1>
+    <hr>
+
+    <div class="game">
+      <div class="playerContent1">
+        <h2 class="player_title" id="player1">Player: 1</h2>
+        <img class="player_img" id="playerImg1" src="images/dice6.png" alt="1">
+      </div>
+      <p id="verse">v/s</p>
+      <div class="playerContent2">
+        <h2 class="player_title" id="player2">Player: 2</h2>
+        <img class="player_img" id="playerImg2" src="images/dice6.png" alt="2">
+      </div>
+      <button class="btn" id="toss_btn" type="button"  onclick="changeImage()" name="start">Toss</button>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+
+  <!-- <footer>
+    <script src="index.js" charset="utf-8"></script>
+  </footer> -->
+
+</html>
